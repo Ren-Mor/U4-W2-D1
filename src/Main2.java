@@ -14,7 +14,7 @@ public class Main2 {
             int kmPerLitro = km / litri;
             System.out.println("Km per litro percorsi: " + kmPerLitro);
         } catch (ArithmeticException | NumberFormatException a){
-            System.out.println("Non so cosa tu abbia fatto, ma non va bene");
+            System.out.println("Ma che hai diviso per 0?");
         } finally {
             valore.close();
         }
